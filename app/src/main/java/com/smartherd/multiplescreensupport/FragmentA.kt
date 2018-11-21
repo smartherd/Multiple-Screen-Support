@@ -2,6 +2,8 @@ package com.smartherd.multiplescreensupport
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.support.v7.widget.LinearLayoutManager
+import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -20,13 +22,13 @@ class FragmentA: Fragment() {
 
     private fun setupRecyclerView(rootView: View) {
 
-//        val recyclerView = rootView.findViewById(R.id.recycler_view) as RecyclerView
-//
-//        val adapter = RecyclerAdapter(context, DataProvider.data)
-//        recyclerView.adapter = adapter
-//
-//        val manager = LinearLayoutManager(activity)
-//        manager.orientation = LinearLayoutManager.VERTICAL
-//        recyclerView.layoutManager = manager
+        val recyclerView = rootView.findViewById(R.id.recycler_view) as RecyclerView
+
+        val adapter = RecyclerAdapter(context, DataProvider.data)
+        recyclerView.adapter = adapter
+
+        val manager = LinearLayoutManager(activity)
+        manager.orientation = LinearLayoutManager.VERTICAL
+        recyclerView.layoutManager = manager
     }
 }
