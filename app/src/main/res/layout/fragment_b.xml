@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@android:color/holo_green_light">
+
+	<TextView
+			android:id="@+id/recycler_view"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:text="To be replaced by Details of List Item clicked by User"
+			android:gravity="center"
+			android:textSize="20sp"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"/>
+
+	<!--<ScrollView-->
+			<!--android:layout_width="match_parent"-->
+			<!--android:layout_height="0dp" android:layout_marginBottom="8dp"-->
+			<!--app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"-->
+			<!--app:layout_constraintEnd_toEndOf="parent"-->
+			<!--android:id="@+id/scrollView3" app:layout_constraintTop_toBottomOf="@+id/txvTitle"-->
+			<!--app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.55"-->
+			<!--android:layout_marginTop="8dp">-->
+
+		<!--<TextView-->
+				<!--android:id="@+id/txvDescription"-->
+				<!--android:layout_width="wrap_content"-->
+				<!--android:layout_height="wrap_content"-->
+				<!--android:layout_margin="10dp"-->
+				<!--android:text="Description"-->
+				<!--android:textSize="20sp"/>-->
+
+	<!--</ScrollView>-->
+
+</android.support.constraint.ConstraintLayout>
